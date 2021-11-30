@@ -26,11 +26,8 @@ class CakeViewModel@Inject constructor(private val getAllCakes: GetAllCakes,@App
                                 isError.postValue(false)
 
                                 val result: List<CakeModel>? = getAllCakes()
-                                var result2 = result?.distinctBy { Pair(it.title,it.title) }
-                                var sorted = result2?.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER, { it.title }))
-
                                 if (!result.isNullOrEmpty()) {
-                                        cakes.postValue(sorted!!)
+                                        cakes.postValue(sortedAndDuplicatedCakes(result)!!)
                                         isLoading.postValue(false)
                                 } else {
                                         Toast.makeText(appContext, "Error la lista esta vacia", Toast.LENGTH_SHORT)
@@ -45,4 +42,11 @@ class CakeViewModel@Inject constructor(private val getAllCakes: GetAllCakes,@App
                                 .show()
                 }
         }
+
+        private fun sortedAndDuplicatedCakes(result: List<CakeModel>): List<CakeModel>{
+                var result2 = result?.distinctBy { Pair(it.title,it.title) }
+                var sorted = result2?.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER, { it.title }))
+                return sorted
+        }
+
 }

@@ -26,8 +26,8 @@ hilt_aggregated_deps/_com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_Hilt
  hilt_aggregated_deps._com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_HiltModules_KeyModule
 com/stefandn/pruebacolkie/PruebaColkieApp_GeneratedInjector.java
  com.stefandn.pruebacolkie.PruebaColkieApp_GeneratedInjector
-com/stefandn/pruebacolkie/ui/viewModels/CakeViewModel_Factory.java
- com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_Factory
+com/stefandn/pruebacolkie/databinding/CakeItemBinding.java
+ com.stefandn.pruebacolkie.databinding.CakeItemBinding
 dagger/hilt/internal/processedrootsentinel/codegen/_com_stefandn_pruebacolkie_PruebaColkieApp.java
  dagger.hilt.internal.processedrootsentinel.codegen._com_stefandn_pruebacolkie_PruebaColkieApp
 hilt_aggregated_deps/_com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_HiltModules_BindsModule.java
@@ -37,21 +37,15 @@ com/stefandn/pruebacolkie/ui/viewModels/CakeViewModel_HiltModules_KeyModule_Prov
  com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
 com/stefandn/pruebacolkie/data/CakeRepositori_Factory.java
  com.stefandn.pruebacolkie.data.CakeRepositori_Factory
-com/stefandn/pruebacolkie/ui/viewModels/CakeViewModel_HiltModules.java
- com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules
- com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules$BindsModule
- com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules$KeyModule
+com/stefandn/pruebacolkie/databinding/PopUpCakeBinding.java
+ com.stefandn.pruebacolkie.databinding.PopUpCakeBinding
 com/stefandn/pruebacolkie/di/NetworkModule_ProvideRetrofitFactory.java
  com.stefandn.pruebacolkie.di.NetworkModule_ProvideRetrofitFactory
  com.stefandn.pruebacolkie.di.NetworkModule_ProvideRetrofitFactory$InstanceHolder
-com/stefandn/pruebacolkie/PruebaColkieApp_ComponentTreeDeps.java
- com.stefandn.pruebacolkie.PruebaColkieApp_ComponentTreeDeps
-com/stefandn/pruebacolkie/databinding/CakeItemBinding.java
- com.stefandn.pruebacolkie.databinding.CakeItemBinding
-com/stefandn/pruebacolkie/databinding/PopUpCakeBinding.java
- com.stefandn.pruebacolkie.databinding.PopUpCakeBinding
 com/stefandn/pruebacolkie/databinding/ActivityMainBinding.java
  com.stefandn.pruebacolkie.databinding.ActivityMainBinding
+com/stefandn/pruebacolkie/PruebaColkieApp_ComponentTreeDeps.java
+ com.stefandn.pruebacolkie.PruebaColkieApp_ComponentTreeDeps
 com/stefandn/pruebacolkie/ui/MainActivity_GeneratedInjector.java
  com.stefandn.pruebacolkie.ui.MainActivity_GeneratedInjector
 com/stefandn/pruebacolkie/ui/Hilt_MainActivity.java
@@ -100,3 +94,9 @@ com/stefandn/pruebacolkie/PruebaColkieApp_HiltComponents.java
  com.stefandn.pruebacolkie.PruebaColkieApp_HiltComponents$ViewWithFragmentC
  com.stefandn.pruebacolkie.PruebaColkieApp_HiltComponents$ViewWithFragmentC$Builder
  com.stefandn.pruebacolkie.PruebaColkieApp_HiltComponents$ViewWithFragmentCBuilderModule
+com/stefandn/pruebacolkie/ui/viewModels/CakeViewModel_HiltModules.java
+ com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules
+ com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules$BindsModule
+ com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_HiltModules$KeyModule
+com/stefandn/pruebacolkie/ui/viewModels/CakeViewModel_Factory.java
+ com.stefandn.pruebacolkie.ui.viewModels.CakeViewModel_Factory

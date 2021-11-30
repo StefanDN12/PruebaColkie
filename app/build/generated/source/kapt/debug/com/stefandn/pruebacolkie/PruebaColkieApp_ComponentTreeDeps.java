@@ -77,9 +77,9 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
         _dagger_hilt_android_internal_modules_HiltWrapper_ActivityModule.class,
         _com_stefandn_pruebacolkie_di_NetworkModule.class,
         _com_stefandn_pruebacolkie_PruebaColkieApp_GeneratedInjector.class,
+        _com_stefandn_pruebacolkie_ui_MainActivity_GeneratedInjector.class,
         _com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_HiltModules_BindsModule.class,
-        _com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_HiltModules_KeyModule.class,
-        _com_stefandn_pruebacolkie_ui_MainActivity_GeneratedInjector.class
+        _com_stefandn_pruebacolkie_ui_viewModels_CakeViewModel_HiltModules_KeyModule.class
     }
 )
 class PruebaColkieApp_ComponentTreeDeps {
