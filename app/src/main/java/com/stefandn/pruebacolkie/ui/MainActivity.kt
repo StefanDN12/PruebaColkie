@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
         binding.btnRetry.setOnClickListener {
             recargarDatos()
         }
+        binding.cakeRecycler.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
     }
 
     fun obtenerDatos(){
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             adapter = CakeAdapter(it, this, listener)
             binding.cakeRecycler.adapter = adapter
             binding.cakeRecycler.setHasFixedSize(true)
-            binding.cakeRecycler.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
+
 
         })
 

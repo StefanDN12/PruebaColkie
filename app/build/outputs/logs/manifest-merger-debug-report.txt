@@ -12,6 +12,7 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\Stefan Daniel\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\54a92271c5b1f957af317b87c1369d33\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\c4a13fc354a83eb200950e2e115eb2bc\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\4debba2e707bfeab65f8611cb200a69c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\fefe382eed8de6c6ec7ccb3c23431e63\transformed\monitor-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\39b6915ef90f9dc76492a6df812954a8\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\baf418899eb9e36b49b35263c4d688a9\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\2268a14c3f09c4c7b82080915354dd9f\transformed\jetified-lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -160,6 +161,8 @@ MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Stefan Daniel\.gradle\
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\c4a13fc354a83eb200950e2e115eb2bc\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\4debba2e707bfeab65f8611cb200a69c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\4debba2e707bfeab65f8611cb200a69c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\fefe382eed8de6c6ec7ccb3c23431e63\transformed\monitor-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.3.0] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\fefe382eed8de6c6ec7ccb3c23431e63\transformed\monitor-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\39b6915ef90f9dc76492a6df812954a8\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\39b6915ef90f9dc76492a6df812954a8\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\Stefan Daniel\.gradle\caches\transforms-3\baf418899eb9e36b49b35263c4d688a9\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41

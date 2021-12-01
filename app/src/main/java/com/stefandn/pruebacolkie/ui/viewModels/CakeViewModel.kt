@@ -34,7 +34,6 @@ class CakeViewModel@Inject constructor(private val getAllCakes: GetAllCakes,@App
                                                 .show()
                                         isError.postValue(true)
                                 }
-
                         }
                 }else{
                        isError.postValue(true)
@@ -43,7 +42,7 @@ class CakeViewModel@Inject constructor(private val getAllCakes: GetAllCakes,@App
                 }
         }
 
-        private fun sortedAndDuplicatedCakes(result: List<CakeModel>): List<CakeModel>{
+         fun sortedAndDuplicatedCakes(result: List<CakeModel>): List<CakeModel>{
                 var result2 = result?.distinctBy { Pair(it.title,it.title) }
                 var sorted = result2?.sortedWith(compareBy(String.CASE_INSENSITIVE_ORDER, { it.title }))
                 return sorted
