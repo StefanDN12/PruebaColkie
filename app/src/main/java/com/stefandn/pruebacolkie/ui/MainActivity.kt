@@ -109,4 +109,6 @@ class MainActivity : AppCompatActivity() {
     fun recargarDatos(){
         obtenerDatos()
     }
+
+    //TODO Animatio feed
 }
